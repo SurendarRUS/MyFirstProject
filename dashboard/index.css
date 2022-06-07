@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    font-family: "Lato", sans-serif;
+}
+
+.bordered {
+    border: 1px solid black
+}
+
+thead {
+    background-color: cadetblue;
+}
+
+.header {
+    display: flex;
+    background-color: #cccccc;
+    justify-content: space-between;
+}
+
+.header div a {
+    color: #000;
+    text-decoration: none;
+    margin: auto;
+    font-weight: 700;
+    padding: 0 10px;
+}
+
+.header div a:not(:last-child) {
+    border-right: 1px solid #fff;
+}
+
+.header .list {
+    padding-top: 20px;
+}
+
+.header .acc_set {
+    padding-top: 20px;
+}
+
+td {
+    font-size: 0.8rem;
+}
+
+.img {
+    max-width: 120px;
+    max-height: 64px;
+    position: relative;
+    left: 0;
+    top: 0;
+}
+
+div.content {
+    margin: 0 auto;
+    padding: 1px 1px;
+    height: 1000px;
+}
+
+.brand {
+    display: flex;
+}
+
+.brand a {
+    color: white;
+    text-decoration: none;
+    padding-right: 10px;
+}
+
+.brand h3 {
+    color: green;
+    font-size: 2rem;
+    font-weight: 800;
+    padding: 10px;
+    position: relative !important;
+}
+
+.detail_cards {
+    position: relative;
+    top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.detail_cards div {
+    border: 1px solid #cccccc;
+    width: 250px;
+    padding: 10px 30px;
+    box-shadow: rgba(0, 0, 0) 0px 5px 2px;
+}
+
+.middle_section {
+    position: relative;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.middle_section div {
+    width: 70vw;
+    height: 70vh;
+}
+
+.btn_assign {
+    color: #fff;
+    background-color: blue;
+    font-size: 1em;
+}
+
+.btn_quote {
+    color: #fff;
+    background-color: #199450;
+    font-size: 1em;
+}
+
+.notification {
+    font-size: 12px;
+    padding: 6px;
+    border-radius: 100%;
+    background-color: red;
+    color: white;
+}
+
+@media screen and (max-width: 700px) {
+    div.content {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 400px) {}
