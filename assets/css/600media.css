@@ -1,0 +1,178 @@
+@media (min-width:421px) and (max-width: 600px) {
+    .container-fluid {
+        display: flex !important;
+    }
+    .navbar-light .navbar-brand {
+        font-size: 2rem;
+        font-weight: bold;
+        color: #11703C !important;
+    }
+    .nav_list ul {
+        display: flex !important;
+        flex-direction: row;
+        margin-left: 60px;
+        gap: 30%;
+    }
+    .qscard {
+        width: 90%;
+        margin: 40px auto 50px auto;
+    }
+    .carousel-dark .carousel-indicators [data-bs-target] {
+        display: none;
+    }
+    .carousel.pointer-event {
+        margin-left: -2%;
+    }
+    .ourservice {
+        position: relative;
+        top: 0;
+        text-align: center;
+        font-size: 2rem;
+    }
+    .ourservice h3 {
+        font-size: 2rem;
+    }
+    .card-group {
+        display: block;
+        justify-items: center;
+        position: relative;
+        top: 0;
+    }
+    .card {
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .card.mb-3 {
+        margin: 40px auto !important;
+    }
+    .select {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .select .formcontrol {
+        width: 100%;
+    }
+    .formcontrol2 {
+        width: 199px;
+        padding: 7px;
+        border: 1px solid #cccccc;
+        border-radius: 5px;
+        color: rgba(77, 74, 74, 0.897);
+    }
+    .formcontrol3 {
+        width: 100%;
+        padding: 7px;
+        border: 1px solid #cccccc;
+        border-radius: 5px;
+        color: rgba(77, 74, 74, 0.897);
+    }
+    .login {
+        margin-left: 0px;
+    }
+    .login a {
+        color: #000;
+        padding: 3px;
+    }
+    .loginpage {
+        width: 95%;
+        top: -3400px;
+        z-index: 3;
+    }
+    .login-box {
+        width: 100%;
+    }
+    .login-box input {
+        width: 70%;
+        padding: 5px;
+    }
+    .login-btn {
+        gap: 30px
+    }
+    .login-btn button {
+        width: 50%;
+        padding: 5px 0px;
+    }
+    .service_process {
+        position: relative;
+        top: 0;
+        border-top: 50px solid #fff !important;
+        border-bottom: 2px solid #fff !important;
+        border-radius: 5px;
+        height: 20vh !important;
+        margin: 20px 0px!important;
+        background-color: transparent !important;
+        color: #11703C;
+        text-align: center;
+    }
+    .service_process h2 {
+        font-size: 1rem;
+    }
+    .top_section {
+        position: relative;
+        top: 66px;
+        display: block;
+        width: 100%;
+    }
+    .top_section .carousel {
+        width: 90%;
+        margin: 80px auto;
+    }
+    .top_section .carousel img {
+        margin: auto;
+    }
+    .top_section .carousel.carousel-indicators {
+        background-color: #11703C;
+    }
+    .process_icons {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        font-size: 1em;
+    }
+    .process_icons i {
+        border: 1px solid black;
+        padding: 20px 15px;
+        width: 100px;
+    }
+    .process_icons i:hover {
+        background-color: #1fbb65;
+        color: #fff;
+    }
+    .slate-group {
+        display: none;
+    }
+    .profile-pop {
+        position: absolute;
+        top: 90px;
+        z-index: 99;
+        left: 70%;
+        background-color: #1fbb65;
+    }
+    .profile-container a {
+        display: block;
+        padding: 10px;
+        color: #fff;
+    }
+}
+
+.logo_heading {
+    position: relative;
+    margin-top: 50px;
+    margin-left: 0px;
+}
+
+.service_logos {
+    position: relative;
+}
+
+.service_logos img {
+    max-width: 340px !important;
+}
+
+footer {
+    width: 100%;
+    position: relative;
+}

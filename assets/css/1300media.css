@@ -1,0 +1,75 @@
+@media (min-width: 901px) and (max-width: 991px) {
+    .nav_list1 ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 20px;
+    }
+}
+
+@media (min-width: 901px) and (max-width: 1300px) {
+    .carousel .carousel-dark .slide .responsive img {
+        width: 80%;
+    }
+    .top_section {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top: 25px;
+        margin-bottom: 50px;
+    }
+    .top_section .carousel {
+        width: 98%;
+        margin-left: 2%;
+    }
+    .top_section .carousel img {
+        margin: auto;
+        width: 100%;
+        max-width: 900px !important;
+    }
+    button.carousel-control-prev {
+        top: 50vh;
+        left: 3%;
+        height: 5vh;
+        background-color: black;
+    }
+    button.carousel-control-next {
+        top: 50vh;
+        right: 0%;
+        height: 5vh;
+        background-color: black;
+    }
+    .qscard {
+        width: 98%;
+        margin: 1% auto;
+    }
+    .service_process {
+        border-top: 2px solid #fff !important;
+        border-bottom: 2px solid #fff !important;
+        border-radius: 5px;
+        height: 20vh !important;
+        margin: 20px 0px!important;
+        background-color: transparent !important;
+        color: #11703C;
+        text-align: center;
+    }
+    .service_process h2 {
+        font-size: 1rem;
+    }
+    .process_icons {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        font-size: 2em;
+        margin: 20px auto;
+    }
+    .fa-arrow-right {
+        font-size: 1.2rem;
+        margin-top: 10px;
+    }
+    .login a {
+        color: #000;
+        padding: 3px;
+    }
+}

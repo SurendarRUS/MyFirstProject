@@ -1,0 +1,129 @@
+@media (min-width: 768px) and (max-width: 900px) {
+    .navbar-light .navbar-toggler {
+        border: none;
+    }
+    .navbar-light .navbar-toggler:focus {
+        box-shadow: none !important;
+        border: none;
+    }
+    .nav_list1 ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 20px;
+    }
+    .top_section {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top: 25px;
+    }
+    .top_section .carousel {
+        width: 98%;
+        margin-left: 1%;
+    }
+    .top_section .carousel img {
+        margin: auto;
+        width: 100%;
+        max-width: 900px !important;
+    }
+    button.carousel-control-prev {
+        display: none;
+        top: 40vh;
+        left: 0%;
+        height: 5vh;
+        background-color: black;
+    }
+    button.carousel-control-next {
+        display: none;
+        top: 40vh;
+        right: 0%;
+        height: 5vh;
+        background-color: black;
+    }
+    .qscard {
+        position: relative;
+        width: 98%;
+        margin-top: 10px !important;
+        margin: 0% auto;
+    }
+    .ourservice {
+        position: relative;
+        text-align: center;
+        margin: 200px auto 0px auto;
+        font-size: 2rem;
+    }
+    .ourservice h3 {
+        font-size: 2rem;
+    }
+    .card-group {
+        display: block;
+        justify-items: center;
+        position: relative;
+        top: 280px;
+    }
+    .card {
+        display: block;
+        width: 60%;
+        margin: 0 auto;
+    }
+    .card.mb-3 {
+        margin: 40px auto !important;
+    }
+    .select {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .select .formcontrol {
+        width: 100%;
+    }
+    .formcontrol2 {
+        width: 100%;
+        padding: 7px;
+        border: 1px solid #cccccc;
+        border-radius: 5px;
+        color: rgba(77, 74, 74, 0.897);
+    }
+    .login {
+        margin-left: 0px;
+    }
+    .login a {
+        color: #000;
+        padding: 3px;
+    }
+    .loginpage {
+        width: 75%;
+    }
+    .service_process {
+        position: relative;
+        top: 70px;
+        border-top: 2px solid #fff !important;
+        border-bottom: 2px solid #fff !important;
+        border-radius: 5px;
+        height: 20vh !important;
+        margin: 20px 0px!important;
+        background-color: transparent !important;
+        color: #11703C;
+        text-align: center;
+    }
+    .service_process h2 {
+        font-size: 1rem;
+    }
+    .process_icons {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        font-size: 1.5em;
+        margin: 20px auto;
+    }
+    .fa-arrow-right {
+        font-size: 1.2rem;
+        margin-top: 5px;
+    }
+    .slate-group {
+        display: none;
+    }
+}

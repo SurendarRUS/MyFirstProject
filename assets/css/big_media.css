@@ -1,0 +1,77 @@
+@media (min-width:1301px) {
+    .nav_list ul {
+        display: none;
+    }
+    .nav_list1 ul {
+        display: none;
+    }
+    .top_section {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top: 25px;
+        margin-bottom: 50px;
+    }
+    .top_section .carousel {
+        width: 49%;
+        margin-left: 2%;
+    }
+    .top_section .carousel img {
+        margin: auto;
+        width: 100%;
+        max-width: 900px !important;
+    }
+    button.carousel-control-prev {
+        top: 45vh;
+        left: 1%;
+        height: 5vh;
+        background-color: black;
+    }
+    button.carousel-control-next {
+        top: 45vh;
+        right: 1%;
+        height: 5vh;
+        background-color: black;
+    }
+    .carousel-indicators button {
+        position: relative;
+        top: 10px;
+        background-color: rgb(243, 20, 20);
+        display: none;
+    }
+    .qscard {
+        width: 41%;
+        margin: 0 auto;
+        margin-top: 80px !important;
+    }
+    .slate1 h5 {
+        margin-top: 5vh;
+        color: green;
+        font-size: 1.5rem;
+    }
+    .slate2 h5 {
+        margin-top: 5vh;
+        color: green;
+        font-size: 1.5rem;
+    }
+    .slate3 h5 {
+        margin-top: 5vh;
+        color: green;
+        font-size: 1.5rem;
+    }
+    .slate4 h5 {
+        margin-top: 5vh;
+        color: green;
+        font-size: 1.5rem;
+    }
+    .slate5 h5 {
+        margin-top: 5vh;
+        color: green;
+        font-size: 1.5rem;
+    }
+    .slate6 h5 {
+        margin-top: 5vh;
+        color: green;
+        font-size: 1.5rem;
+    }
+}

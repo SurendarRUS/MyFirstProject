@@ -1,0 +1,5 @@
+Audio,computer,inverter,laptop,lcdtv,smps
+
+1200px Width 628px Height
+
+About - 1080*1080 px
