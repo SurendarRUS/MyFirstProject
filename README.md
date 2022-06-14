@@ -1,1 +1,1 @@
-# MyFirstProject
+# RUS Electronics and Automation
